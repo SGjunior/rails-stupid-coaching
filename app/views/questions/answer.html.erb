@@ -1,0 +1,22 @@
+<div class="answer-container">
+  <div class="col-xs-12">
+    <h1>Stupid Coaching</h1>
+    <hr>
+<br>
+    <div class="messages">
+      <div class="question-block">
+    <h4 class=""><%= @question %> </h4>
+    <i>-You</i>
+    </div>
+    <br>
+    <div class="answer-block">
+    <h4 class=""><%= @answer %> </h4>
+    <i>-Coach</i>
+    </div>
+    <br>
+    </div>
+    <%= link_to ask_path do %>
+    <div class="btn btn-info">Ask another question</div>
+    <% end %>
+  </div>
+</div>
